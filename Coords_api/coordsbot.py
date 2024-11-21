@@ -6,7 +6,7 @@ import asyncio
 from kb import main_kb
 
 
-bot = Bot("8023907223:AAHAaZZ9mYklvIc6NzBKkTVX1ZlYfOUKerk") #-example key
+bot = Bot("bot-key") #-your key
 dp = Dispatcher()
 
 @dp.message(CommandStart())
